@@ -3,7 +3,7 @@ export default function About() {
     <section className="about-section" id="sobre">
       <div className="about-image">
         <img
-          src="/sobre-nos.png"
+          src={`${import.meta.env.BASE_URL}sobre-nos.png`}
           alt="Atendimento executivo da L7 Transportes"
         />
       </div>

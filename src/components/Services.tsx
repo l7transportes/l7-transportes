@@ -15,7 +15,7 @@ export default function Services({ whatsappNumber }: ServicesProps) {
 
       <div className="services-cards">
         <article className="service-card">
-          <img src="/particular-novo.png" alt="Transporte de passageiros" />
+          <img src={`${import.meta.env.BASE_URL}particular-novo.png`} alt="Transporte de passageiros" />
 
           <div className="service-card-content">
             <UserRound />
@@ -45,7 +45,7 @@ export default function Services({ whatsappNumber }: ServicesProps) {
         </article>
 
         <article className="service-card">
-          <img src="/corporativo-novo.png" alt="Transporte corporativo" />
+          <img src={`${import.meta.env.BASE_URL}corporativo-novo.png`} alt="Transporte corporativo" />
 
           <div className="service-card-content">
             <Building2 />
@@ -74,7 +74,7 @@ export default function Services({ whatsappNumber }: ServicesProps) {
         </article>
 
         <article className="service-card">
-          <img src="/aviaoaeroporto.png" alt="Aeroportos e viagens" />
+          <img src={`${import.meta.env.BASE_URL}aviaoaeroporto.png`} alt="Aeroportos e viagens" />
 
           <div className="service-card-content">
             <Plane />
@@ -101,7 +101,7 @@ export default function Services({ whatsappNumber }: ServicesProps) {
         </article>
 
         <article className="service-card">
-          <img src="/entregamoto.png" alt="Serviço de entregas" />
+          <img src={`${import.meta.env.BASE_URL}entregamoto.png`} alt="Serviço de entregas" />
 
           <div className="service-card-content">
             <Package />

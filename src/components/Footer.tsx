@@ -13,7 +13,7 @@ export default function Footer({ whatsappNumber, email, instagramUrl, }: FooterP
     <footer className="site-footer" id="contato">
       <div className="footer-main">
         <a className="footer-logo" href="#inicio" aria-label="L7 Transportes">
-          <img src="/Logo.png" alt="L7" />
+          <img src={`${import.meta.env.BASE_URL}Logo.png`} alt="L7" />
 
           <span>
             <strong>TRANSPORTES</strong>
