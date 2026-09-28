@@ -1,0 +1,383 @@
+/* NOTEBOOK */
+
+@media (min-width: 1251px) and (max-width: 1600px) {
+  .services-section {
+    padding-inline: 4vw;
+  }
+
+  .service-card > img {
+  height: 320px;
+  } 
+
+  .services-cards {
+    gap: 20px;
+  }
+}
+
+
+/* TABLET */
+
+@media (max-width: 1050px) {
+  .nav-row {
+    padding: 0 26px;
+    gap: 20px;
+  }
+
+  .brand {
+    min-width: 260px;
+  }
+
+  .desktop-nav {
+    gap: 22px;
+  }
+
+  .header-cta {
+    padding-inline: 18px;
+  }
+
+  .services-cards {
+    gap: 24px;
+  }
+
+  .footer-main {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .desktop-nav,
+  .header-cta {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .nav-row {
+    height: 78px;
+  }
+
+  .brand img {
+    width: 88px;
+    height: 58px;
+  }
+
+  .brand strong {
+    font-size: 18px;
+  }
+
+    .mobile-nav {
+    display: flex;
+    position: absolute;
+    top: 78px;
+    left: auto;
+    right: 26px;
+    width: min(320px, calc(100vw - 52px));
+    padding: 25px 28px;
+    flex-direction: column;
+    gap: 20px;
+    background: #08090c;
+    border: 1px solid rgba(246, 172, 46, 0.5);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.35);
+  }
+
+  .hero {
+    min-height: 760px;
+    background-position: 62% center;
+    background-size: cover;
+  }
+
+  .hero-copy {
+    width: min(560px, 80vw);
+    margin-left: 32px;
+  }
+
+  .hero-benefits {
+    left: 32px;
+    right: 32px;
+    bottom: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-benefits>div {
+    padding: 10px 18px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .services-section {
+    padding: 80px 28px;
+  }
+
+  .services-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+
+  .service-card {
+    min-height: 640px;
+  }
+
+  .service-card>img {
+    height: 300px;
+  }
+
+  .about-section {
+    min-height: auto;
+    padding: 80px 32px;
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .about-image {
+    width: 100%;
+    height: 450px;
+  }
+
+  .about-content {
+    max-width: none;
+  }
+
+  .how-section {
+    min-height: auto;
+    padding: 80px 32px;
+  }
+
+  .how-heading {
+    margin-bottom: 55px;
+  }
+
+  .how-steps {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .how-step {
+    min-height: auto;
+    text-align: center;
+  }
+
+  .how-step p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .step-arrow {
+    text-align: center;
+    transform: rotate(90deg);
+  }
+
+  .footer-main {
+    padding: 60px 32px 45px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+  }
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+  .nav-row {
+    height: 70px;
+    padding: 0 18px;
+  }
+
+  .brand {
+    min-width: 0;
+  }
+
+  .brand img {
+    width: 73px;
+    height: 50px;
+  }
+
+  .brand strong {
+    font-size: 15px;
+  }
+
+  .brand small {
+    font-size: 7px;
+    letter-spacing: 1.5px;
+  }
+
+  .mobile-nav {
+    top: 70px;
+  }
+
+  .hero {
+    min-height: 820px;
+    background-position: 68% center;
+  }
+
+  .hero-copy {
+    top: 43%;
+    width: auto;
+    margin: 0 20px;
+  }
+
+  .hero-copy>p:first-child {
+    font-size: 11px;
+  }
+
+  .hero h1 {
+    font-size: clamp(31px, 10vw, 38px);
+    letter-spacing: -1px;
+  }
+
+  .hero-description {
+    max-width: 420px;
+    font-size: 14px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .primary-button {
+    min-width: 250px;
+  }
+
+  .hero-benefits {
+    left: 20px;
+    right: 20px;
+  }
+
+  .hero-benefits>div {
+    min-height: 48px;
+    padding: 8px 7px;
+    gap: 8px;
+  }
+
+  .hero-benefits svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  .hero-benefits span {
+    font-size: 9px;
+  }
+
+  .services-section {
+    padding: 65px 20px;
+  }
+
+  .services-heading {
+    margin-bottom: 25px;
+  }
+
+  .services-heading h2 {
+    font-size: 27px;
+  }
+
+  .services-cards {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .service-card {
+    min-height: 580px;
+  }
+
+  .service-card>img {
+    height: 280px;
+  }
+
+  .service-card-content {
+    min-height: 270px;
+    padding: 18px;
+  }
+
+  .about-section {
+    padding: 65px 20px;
+    gap: 32px;
+  }
+
+  .about-image {
+    height: 300px;
+  }
+
+  .about-label {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .about-content>p:not(.about-label) {
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .about-slogan {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+
+  .how-section {
+    padding: 65px 20px;
+  }
+
+  .how-heading {
+    margin-bottom: 45px;
+  }
+
+  .how-heading p {
+    font-size: 14px;
+  }
+
+  .how-heading h2 {
+    font-size: 29px;
+  }
+
+  .how-steps {
+    gap: 25px;
+  }
+
+  .step-number {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 18px;
+  }
+
+  .how-step h3 {
+    font-size: 20px;
+  }
+
+  .how-step p {
+    font-size: 15px;
+  }
+
+  .footer-main {
+    padding: 55px 20px 40px;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer-slogan {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    padding: 18px 70px;
+    line-height: 1.5;
+  }
+
+  .floating-whatsapp,
+  .back-to-top {
+    bottom: 18px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .floating-whatsapp {
+    left: 18px;
+  }
+
+  .back-to-top {
+    right: 18px;
+  }
+}
